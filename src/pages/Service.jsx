@@ -63,7 +63,7 @@ All our technicians are licensed, bonded, and insured.</p>
             <div className="form-group">
               <label>Type of Customer</label>
               <select>
-                <option>Residential or</option>
+                <option>Residential or Commercial</option>
                 <option>Residential</option>
                 <option>Commercial</option>
               </select>
