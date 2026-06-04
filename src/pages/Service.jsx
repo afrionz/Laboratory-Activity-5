@@ -1,5 +1,7 @@
 import '../App.css'
 import poolLogo from '../assets/pool nav.png'
+import pfp from '../assets/pfp.png'
+import cartIcon from '../assets/cart.svg'
 import ServiceImage from '../assets/service.png'
 
 function Service() {
@@ -24,8 +26,14 @@ function Service() {
           </div>
 
           <div className="hero-right">
-            <button className="ghost-button" type="button" href="#sign-in">Sign In</button>
-            <button className="ghost-button" type="button" href="#cart">Cart</button>
+            <button className="ghost-button icon-button" type="button" href="#sign-in">
+              <img src={pfp} alt="Profile" className="sign-in-avatar" />
+              Sign In
+            </button>
+            <button className="ghost-button icon-button" type="button" href="#cart">
+              <img src={cartIcon} alt="Cart" />
+              Cart
+            </button>
           </div>
         </div>
 

@@ -1,9 +1,12 @@
 import '../App.css'
 import poolLogo from '../assets/pool nav.png'
+import pfp from '../assets/pfp.png'
+import cartIcon from '../assets/cart.svg'
 import CenterImage from '../assets/center.png'
 import Card1 from '../assets/card1.png'
 import Card2 from '../assets/card2.png'
 import Card3 from '../assets/card3.png'
+import HaywardFilter from '../assets/HAYWARD FILTER.png'
 
 function Home() {
   return (
@@ -27,8 +30,14 @@ function Home() {
           </div>
 
           <div className="hero-right">
-            <button className="ghost-button" type="button" href="#sign-in">Sign In</button>
-            <button className="ghost-button" type="button" href="#cart">Cart</button>
+            <button className="ghost-button icon-button" type="button" href="#sign-in">
+              <img src={pfp} alt="Profile" className="sign-in-avatar" />
+              Sign In
+            </button>
+            <button className="ghost-button icon-button" type="button" href="#cart">
+              <img src={cartIcon} alt="Cart" />
+              Cart
+            </button>
           </div>
         </div>
 
@@ -67,9 +76,9 @@ function Home() {
         </div>
 
         <div className="card">
-          <h3>Card 4</h3>
-          <h4>Accessories</h4>
-          <p>Explore More</p>
+          <img src={HaywardFilter} alt="Hayward Filter" />
+          <h3>HAYWARD FILTER</h3>
+          <h4>Price: 24,000</h4>
         </div>
       </section>
     </div>
