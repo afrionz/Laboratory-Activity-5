@@ -81,6 +81,13 @@ function Home() {
           <h4>Price: ₱24,000</h4>
         </div>
       </section>
+
+      <footer className="site-footer home-footer">
+        <div className="site-footer-content">
+          <a href="#about-us">About Us</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </footer>
     </div>
   )
 }

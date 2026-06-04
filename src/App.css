@@ -247,6 +247,34 @@ body {
   height: auto;
   display: block;
   border-radius: 10px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover img,
+.service-image-wrapper img:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+}
+
+.image-wrapper img,
+.service-image-wrapper img {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.image-wrapper {
+  overflow: hidden;
+  animation: slideInFromLeft 0.8s ease-out both;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @media (max-width: 1024px) {
@@ -475,6 +503,36 @@ body {
 
 .submit-btn:hover {
   background: #000000;
+}
+
+.site-footer {
+  background: linear-gradient(135deg, #0f2b5d, #1a3f7a);
+  color: #fff;
+  padding: 18px 20px;
+  margin-top: 30px;
+  box-shadow: 0 -6px 18px rgba(15, 43, 93, 0.12);
+}
+
+.site-footer-content {
+  display: flex;
+  justify-content: left;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+  color: #d6ebff;
+}
+
+.home-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .service-image-column {

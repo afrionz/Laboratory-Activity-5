@@ -106,6 +106,13 @@ All our technicians are licensed, bonded, and insured.</p>
       </div>
     </section>
 
+    <footer className="site-footer">
+      <div className="site-footer-content">
+        <a href="#about-us">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+
     </div>
   )
 }
