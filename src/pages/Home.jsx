@@ -60,25 +60,25 @@ function Home() {
         <div className="card">
           <img src={Card1} alt="Card 1" />
           <h3>HYDROCHLORIC ACID 24 Liters</h3>
-          <h4>Price: 4,500</h4>
+          <h4>Price: ₱4,500</h4>
         </div>
 
         <div className="card">
           <img src={Card2} alt="Card 2" />
           <h3>CHLORINE 45 kilos</h3>
-          <h4>Price: 6,500</h4>
+          <h4>Price: ₱6,500</h4>
         </div>
 
         <div className="card">
           <img src={Card3} alt="Card 3" />
           <h3>CHLORINE  POOL TABLETS 5 PCS.</h3>
-          <h4>Price: 750</h4>
+          <h4>Price: ₱750</h4>
         </div>
 
         <div className="card">
           <img src={HaywardFilter} alt="Hayward Filter" />
           <h3>HAYWARD FILTER</h3>
-          <h4>Price: 24,000</h4>
+          <h4>Price: ₱24,000</h4>
         </div>
       </section>
     </div>
