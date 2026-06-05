@@ -309,6 +309,7 @@ body {
 
 .equipment-page {
   padding: 20px 20px 40px;
+  animation: contactFadeUp 0.7s ease both;
 }
 
 .equipment-intro {
@@ -960,6 +961,7 @@ body {
 .service-section {
   padding: 40px 20px;
   background: #fff;
+  animation: contactFadeUp 0.7s ease both;
 }
 
 .service-container {
