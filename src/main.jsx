@@ -11,8 +11,17 @@ function AppRouter() {
   const [route, setRoute] = useState(window.location.hash || '#home')
 
   useEffect(() => {
-    const onHash = () => setRoute(window.location.hash || '#home')
+    const onHash = () => {
+      const nextHash = window.location.hash || '#home'
+      setRoute(nextHash)
+
+      if (nextHash === '#about-us' || nextHash === '#/about-us') {
+        window.scrollTo({ top: 220, behavior: 'smooth' })
+      }
+    }
+
     window.addEventListener('hashchange', onHash)
+    onHash()
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
 
