@@ -162,6 +162,10 @@ body {
   font-size: 13px;
   border-right: 1px solid #000000;
 }
+
+.hero-nav a:last-child {
+  border-right: none;
+}
 .hero-nav a.hover { 
   border-color: #2f3235;
   background: #e9f3ff;
