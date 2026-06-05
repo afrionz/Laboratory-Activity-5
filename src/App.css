@@ -516,6 +516,11 @@ body {
   padding: 22px;
   box-shadow: 0 16px 36px rgba(15, 43, 93, 0.18);
   backdrop-filter: blur(4px);
+  animation: contactFadeUp 0.7s ease both;
+}
+
+.contact-map-card {
+  animation-delay: 0.12s;
 }
 
 .contact-card h2,
@@ -606,6 +611,17 @@ body {
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes contactFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
