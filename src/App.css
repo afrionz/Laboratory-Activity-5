@@ -644,6 +644,17 @@ body {
   .header {
     flex-direction: column;
     align-items: flex-start;
+    padding: 20px 16px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+    line-height: 1.15;
+  }
+
+  .header h2 {
+    font-size: 18px;
+    line-height: 1.2;
   }
 
   .hero {
@@ -713,6 +724,19 @@ body {
 }
 
 @media (max-width: 480px) {
+  .header {
+    padding: 16px 12px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+    max-width: 100%;
+  }
+
+  .header h2 {
+    font-size: 16px;
+  }
+
   .hero-right {
     flex-direction: column;
     align-items: stretch;
