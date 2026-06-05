@@ -227,7 +227,7 @@ function Equipment() {
       <footer className="site-footer">
         <div className="site-footer-content">
           <a href="#about-us">About Us</a>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact Us</a>
         </div>
       </footer>
     </div>

@@ -4,6 +4,7 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import Service from './pages/Service.jsx'
 import Equipment from './pages/Equipment.jsx'
+import Contact from './pages/Contact.jsx'
 
 function AppRouter() {
   const [route, setRoute] = useState(window.location.hash || '#home')
@@ -16,6 +17,7 @@ function AppRouter() {
 
   if (route === '#service' || route === '#/service') return <Service />
   if (route === '#equipment' || route === '#/equipment') return <Equipment />
+  if (route === '#contact' || route === '#/contact') return <Contact />
   return <Home />
 }
 
